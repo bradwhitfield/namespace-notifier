@@ -20,8 +20,11 @@ import (
 )
 
 func main() {
+	// TODO: Try uber/zap
+
 	// Try to use KUBECONFIG if set
-	// Ohterwise attempt default kubeconfig path.
+	// Ohterwise attempt default kubeconfig path
+	// TODO: Try default in cluster config
 	var conf *rest.Config
 	var err error
 	kc := os.Getenv("KUBECONFIG")
