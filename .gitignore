@@ -1,3 +1,4 @@
 Gopkg.lock
 vendor/
 config
+envs.ps1
