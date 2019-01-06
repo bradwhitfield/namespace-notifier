@@ -1,8 +1,10 @@
+This is a really basic controller that watches all namespaces in Kubernetes, and spits them out to Slack.
+
 # Configuration
 
 ## KUBECONFIG
 
-If you specify the KUBECONFIG environment variable, it will try to use that path. Otherwise it uses the default path and context. Later I'll add the in cluster setup.
+If you specify the KUBECONFIG environment variable, it will try to use that path. Otherwise it assumes you are running in a Kubernetes cluster.
 
 ## SLACK_WEBHOOK
 
